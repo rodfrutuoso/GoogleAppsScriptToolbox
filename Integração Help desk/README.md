@@ -1,41 +1,40 @@
-# [Título do Script]
+# Importador de Relatório de Chamados do Desk
 
 ## Descrição
 
-[descrição do script]
+Este script foi criado para importar o Relatório de Chamados do Help Desk por meio de um link URL da integração do Power BI. Ele utiliza a classe UrlFetchApp para consultar o HTML da página e extrair os dados relevantes.
 
 ## Funcionalidades
 
-O script inclui as seguintes funcionalidades:
+O script possui as seguintes funcionalidades:
 
-- **[Nome da Funcionalidade]**: [descrição da funcionalidade]
+- **Importação do Relatório**: O script acessa o relatório de chamados do Desk por meio do link do Power BI e extrai os dados em formato tabular.
 
-- **[Nome da Funcionalidade]**: [descrição da funcionalidade]
+- **Verificação de Novos Chamados**: Ele verifica quais chamados ainda não estão na planilha do Google Sheets e os insere automaticamente.
 
-- **[Nome da Funcionalidade]**: [descrição da funcionalidade]
-
-- **[Nome da Funcionalidade]**: [descrição da funcionalidade]
+- **Ajuste de Limite de Caracteres**: O script ajusta o tamanho das strings para garantir que elas não excedam o limite de 5000 caracteres por célula no Google Sheets.
 
 ## Como Usar
 
-1. [Primeiro passo para usar o script]
+1. Certifique-se de que os requisitos sejam atendidos (veja a seção de Requisitos).
 
-2. [Segundo passo para usar o script]
-
-3. [Terceiro passo para usar o script]
+2. Atualize as variáveis `url`, `abaRange` e `abaRangeAux` de acordo com sua planilha e url do Relatório do Help Desk.
+   
+3.  No Google Sheets, execute a função `filtroChamadosNovos` para verificar e inserir novos chamados.
 
 ## Requisitos
 
-Antes de utilizar este script, certifique-se de que os seguintes requisitos estejam satisfeitos:
+Antes de usar este script, verifique se os seguintes requisitos estão satisfeitos:
 
-### 1. [Requisito número 1]
+### 1. Acesso ao Relatório do Desk
 
-[Descrição de como atender o requisito]
+Certifique-se de que você tenha acesso ao Relatório de Chamados do Help Desk por meio do link do Power BI especificado no código.
+
+### 2. API do Google Sheets
+
+Instalar a API do Google Sheets através do menu de "Serviços" do Google Apps Script.
 
 ## Autor
 
-Este script foi desenvolvido por [Seu nome] e é mantido pela Ecoelétrica.
+Este script foi desenvolvido por [Rodrigo Frutuoso](https://rodfrutuoso.github.io/teste/) .
 
----
-
-<a href="https://ecoeletrica.com.br" target="_blank">Link da Planilha</a>
