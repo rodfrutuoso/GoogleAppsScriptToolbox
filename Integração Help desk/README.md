@@ -40,6 +40,12 @@ Instalar a API do Google Sheets através do menu de "Serviços" do Google Apps S
 
 Este script foi desenvolvido por [Rodrigo Frutuoso](https://rodfrutuoso.github.io/teste/) .
 
+<br>
+<br>
+
+---
+<br>
+<br>
 
 ## Description
 
